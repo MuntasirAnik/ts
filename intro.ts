@@ -2,4 +2,8 @@ let greetings: string = 'Hello muntasir';
 
 console.log(greetings)
 
-export{}
+let userID : number = 2345678.5
+
+let isLoggedIn: boolean = false
+
+export {}
