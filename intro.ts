@@ -1,9 +1,19 @@
-let greetings: string = 'Hello muntasir';
+//string
+let greetings: string = "Hello muntasir";
 
-console.log(greetings)
+console.log(greetings);
 
-let userID : number = 2345678.5
+//number
+let userID: number = 2345678.5;
 
-let isLoggedIn: boolean = false
+//boolean
+let isLoggedIn: boolean = false;
 
-export {}
+//any
+let hero;
+function getHero() {
+  return "thor";
+}
+
+hero = getHero();
+export {};
